@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+    </head>
+    <body>
+        <div class="w-75 mx-auto">
+            <h1 class="border-bottom border-3 border-light fw-bold p-3 text-opacity-50">Bookmarker</h1>
+            <div class="w-100 bg-light p-2 my-5 text-center">
+                <h2>Bookmark your favourite sites</h2>
+                <label for="siteName" class="fw-bold my-2">Site Name</label>
+                <input  id="siteName" class="form-control" type="text" placeholder="Bookmark Name" />
+                <label for="siteURL" class="fw-bold my-2">Site URL</label>
+                <input  id="siteURL" class="form-control" type="text" placeholder="Website URL" />
+                <button disabled id="submitBtn" class="btn btn-outline-info text-black my-3" type="submit">Submit</button>
+
+            </div>
+            <input  id="searchInput" class="form-control" type="text" placeholder="search by bookmark name" />
+            <table class="table text-center my-3">
+                <tbody id="tablebody">
+
+                </tbody>
+
+            </table>
+        </div>
+       
+
+
+        <script src="index.js"></script>
+    </body>
+</html>
